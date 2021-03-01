@@ -4,5 +4,16 @@
     box-sizing: border-box;
 }
 .nav-wrapper{
-    background-color: rgb(60, 59, 172);
+    background-color: rgb(23,33,61);
+}
+.brand-logo{
+    margin-left: 10px;
+}
+
+.carousel .carousel-item {
+    height: 600px;
+  }
+
+.carousel-item img{
+    height: 800px;
 }
