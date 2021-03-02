@@ -8,9 +8,7 @@ body{
     background-color: rgb(226, 228, 228);
     font-family: 'Roboto', sans-serif
 }
-.nav-wrapper{
-    background-color: rgb(23,33,61);
-}
+
 .brand-logo{
     margin-left: 10px;
 }
@@ -29,13 +27,26 @@ main{
     margin-top: 100px;
 }
 .container-fluid{
+   text-align: center;
    
-    text-align: center;
+    
+}
+.container-fluid p{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /*map styles */
-#map{
-    height: 100%;
+.col-sm-6{
+    margin: 0 auto;
+    text-align: center;
+}
+ #map{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    
 }
 .location-container{
     margin: 0 auto;
@@ -43,7 +54,7 @@ main{
     
 }
 
- Cards Containers 
+
 
 .card img{
     width: 100%;
@@ -54,7 +65,7 @@ main{
     margin: 0 auto; 
     float: none; 
     margin-bottom: 10px;
-    width: 400px;
+    width: 270px;
 }
 .card-body{
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
@@ -65,4 +76,19 @@ main{
 
 .title p{
     font-size: 18px;
+}
+
+.container-fluid h1{
+    font-size: 1.7rem;
+}
+#map-fluid{
+    margin-top: 45px;
+    
+}
+/* mobile view for maps */
+
+@media only screen and (max-width: 600px) {
+    #maps{
+        
+    }
 }
