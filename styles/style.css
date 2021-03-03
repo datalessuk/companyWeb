@@ -22,7 +22,9 @@ body{
     width: 100%;
 }
 .carousel-caption{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
 }
 main{
     margin-top: 100px;
@@ -31,14 +33,19 @@ main{
 .container-fluid{
     text-align: center;
     width: 100%;
+   
      
  }
  .container-fluid p{
      max-width: 1000px;
      margin: 0 auto;
      text-align: left;
+     margin-top: 15;
  }
 
+ #cards{
+     margin-top: 50px;
+ }
 
 /*map styles */
 .col-sm-6{
