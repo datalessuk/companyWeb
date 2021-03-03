@@ -50,13 +50,14 @@ main{
 /*map styles */
 .col-sm-6{
     margin: 0 auto;
-    text-align: center;
-    
+
 }
  #map{
+     margin: 0 auto;
     text-align: center;
     height: 400px;
-    width: 100%;
+    width: 50%;
+    border-radius: 20px;
     
 }
 .location-container{
@@ -96,6 +97,9 @@ main{
     margin-top: 45px;
     
 }
+
+
+
 /* mobile view for maps */
 
 @media only screen and (max-width: 600px) {
